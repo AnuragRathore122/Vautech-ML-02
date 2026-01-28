@@ -1,23 +1,23 @@
-VAUTECH SOLUTIONS — AI INTERNSHIP REPORT 
+## VAUTECH SOLUTIONS — AI INTERNSHIP REPORT 
 
-Task 2: Advanced Data Preparation for ML Models 
+## Task 2: Advanced Data Preparation for ML Models 
  
  
-Project Title:  Data Preparation using Python, pandas, NumPy, Scikit-learn 
+**Project Title:**  Data Preparation using Python, pandas, NumPy, Scikit-learn 
 
-Intern Name: Anurag Rathore 
+**Intern Name:** Anurag Rathore 
 
-Intern ID: VT26ML003 
+**Intern ID:** VT26ML003 
 
-Department: Artificial Intelligence & Data Science 
+**Department:** Artificial Intelligence & Data Science 
 
-Mentor: Vishal Ramkumar Rajbhar 
+**Mentor:** Vishal Ramkumar Rajbhar 
 
-Company: Vautech Solutions IT Solutions 
+**Company:** Vautech Solutions IT Solutions 
 
-Topic Name: Advanced Data Preparation for ML Models 
+**Topic Name:** Advanced Data Preparation for ML Models 
  
-Topic Description 
+## Topic Description 
  
 Advanced Data Preparation for Machine Learning Models refers to the process 
 of transforming raw data into a clean, balanced, and well-structured format that 
@@ -26,7 +26,7 @@ often contain issues such as class imbalance, outliers, noise, and features with
 different scales, which negatively impact model performance. 
  
  
-Abstract 
+## Abstract 
  
 Advanced Data Preparation is a critical phase in Real-world datasets are often 
 imperfect, containing issues such as class imbalance, outliers, and varying 
@@ -55,7 +55,7 @@ the model learn better patterns from data and make accurate predictions.
 By using proper data preparation techniques, we can reduce errors, improve 
 model performance, and build more reliable Machine Learning systems. 
  
-Problem Statement 
+## Problem Statement 
  
 Machine Learning models often perform poorly when trained on raw, real-world 
 data due to issues such as class imbalance, outliers, and features with different 
@@ -68,20 +68,20 @@ features effectively. Addressing these challenges is essential to improve learni
 efficiency, reduce model errors, and ensure reliable and robust Machine 
 Learning model performance. 
  
- Objectives 
+## Objectives 
  
- To understand the importance of advanced data preparation in Machine 
+- To understand the importance of advanced data preparation in Machine 
 Learning 
- To identify common data issues such as class imbalance and outliers 
- To apply basic techniques for handling class imbalance using resampling and 
+- To identify common data issues such as class imbalance and outliers 
+- To apply basic techniques for handling class imbalance using resampling and 
 class weights 
- To detect and manage outliers in datasets to reduce noise and errors 
- To perform feature scaling for fair and effective model learning 
- To prepare clean, balanced, and well-structured data for robust model 
+- To detect and manage outliers in datasets to reduce noise and errors 
+- To perform feature scaling for fair and effective model learning 
+- To prepare clean, balanced, and well-structured data for robust model 
 training 
- To improve model accuracy, reliability, and generalization on unseen data 
+- To improve model accuracy, reliability, and generalization on unseen data 
  
-Dataset Description 
+## Dataset Description 
  
 The dataset used in this project is a bank marketing dataset containing 
 information about bank customers and their responses to a marketing campaign. 
@@ -101,53 +101,53 @@ handling, class balancing, and feature scaling. Overall, the dataset provides a
 realistic scenario to demonstrate how proper data preparation improves Machine 
 Learning model performance. 
  
-Methodology 
+## Methodology 
  
- Load the bank dataset and understand its structure. 
- Convert categorical data into numerical form. 
- Handle missing values to avoid training errors. 
- Detect and remove outliers from feature columns. 
- Balance the dataset using resampling techniques. 
- Scale all features to the same range. 
- Split data into training and testing sets. 
- Train the Machine Learning model on prepared data. 
- Evaluate model performance using standard metrics. 
+- Load the bank dataset and understand its structure. 
+- Convert categorical data into numerical form. 
+- Handle missing values to avoid training errors. 
+- Detect and remove outliers from feature columns. 
+- Balance the dataset using resampling techniques. 
+- Scale all features to the same range. 
+- Split data into training and testing sets. 
+- Train the Machine Learning model on prepared data. 
+- Evaluate model performance using standard metrics. 
  
  
-Handle class imbalance (basic techniques like 
+## Handle class imbalance (basic techniques like 
 resampling or class weights) 
  
- Class imbalance occurs when one class has more data than the 
+- Class imbalance occurs when one class has more data than the 
 other. 
- This causes the model to Favor the majority class and ignore the 
+- This causes the model to Favor the majority class and ignore the 
 minority class. 
- Resampling is used to balance data by increasing minority samples 
+- Resampling is used to balance data by increasing minority samples 
 (oversampling) or reducing majority samples (under sampling). 
- Class weights give more importance to the minority class during 
+- Class weights give more importance to the minority class during 
 model training. 
- These techniques help the model learn both classes fairly. 
- Handling class imbalance reduces bias and improves prediction 
+- These techniques help the model learn both classes fairly. 
+- Handling class imbalance reduces bias and improves prediction 
 accuracy for the minority class. 
  
-Detect and Handle Outliers 
+## Detect and Handle Outliers 
  
- Outliers are values that are very high or very low compared to 
+- Outliers are values that are very high or very low compared to 
 normal data. 
- They are detected using the IQR method. 
- Outliers are removed only from feature columns. 
- This reduces noise and improves model performance. 
+- They are detected using the IQR method. 
+- Outliers are removed only from feature columns. 
+- This reduces noise and improves model performance. 
  
- 
-Scale Features Appropriately 
+## Scale Features Appropriately 
 
- Feature scaling means bringing all features to the same range. 
- Some features have small values while others have very large values. 
- Without scaling, large-value features dominate model learning. 
- Scaling helps the model learn fairly from all features. 
+- Feature scaling means bringing all features to the same range. 
+- Some features have small values while others have very large values. 
+- Without scaling, large-value features dominate model learning. 
+- Scaling helps the model learn fairly from all features. 
  
-Prepare Data for Robust Model Training 
+## Prepare Data for Robust Model Training 
 
- Clean and balanced data helps the model learn correctly. 
- Missing values, outliers, and imbalance are handled before training. 
+- Clean and balanced data helps the model learn correctly. 
+- Missing values, outliers, and imbalance are handled before training. 
  Data is split into training and testing sets. 
+
  This helps the model perform well on new, unseen data. 
